@@ -48,18 +48,14 @@ The logic determines finger state by comparing the tip landmark position to the 
 * A working webcam (internal or external).
 
 ### Installation
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YourUsername/Hand-Keyboard-Controller.git](https://github.com/YourUsername/Hand-Keyboard-Controller.git)
-    cd Hand-Keyboard-Controller
-    ```
-2.  **Create `requirements.txt`** (if necessary):
+
+1.  **Create `requirements.txt`** (if necessary):
     ```
     opencv-python
     mediapipe
     pynput
     ```
-3.  **Install Dependencies:**
+2.  **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
